@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2 Hacktiv8</title>
+    <link rel="website" href="image/hacktiv.jpg" />
+    <link rel="stylesheet" href="css/album.css" />
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">PRODUCT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">BLOGY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">INVENTORY</a>
+              </li>
+  
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="card">
+        <div class="maincard">
+          <img src="image/yulia1.jpg" alt="yulia.png" class="profileimage" />
+          <div class="descriptioncard">
+            <h2 id="nameprofile" class="headingprofile">Nama Anda</h2>
+            <p id="role" class="parafdesc">Role</p>
+            <button id="editbtn" class="button1" type="button">Edit</button>
+            <button class="button2">Resume</button>
+          </div>
+          <table class="biodata">
+            <tr>
+              <td class="tdbio">Availabillity</td>
+              <td id="avaibillity"></td>
+            </tr>
+            <tr>
+              <td class="tdbio">Age</td>
+              <td id="age"></td>
+            </tr>
+            <tr>
+              <td class="tdbio">Location</td>
+              <td id="location"></td>
+            </tr>
+            <tr>
+              <td class="tdbio">Years Experience</td>
+              <td id="years"></td>
+            </tr>
+            <tr>
+              <td class="tdbio">Email</td>
+              <td id="email"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  
+    <div id="formpage" style="display: none">
+      <div class="cardform">
+        <div class="form">
+          <label for="name" class="label">Name</label>
+          <br />
+          <input
+            type="text"
+            name="nama"
+            class="forminput"
+            id="inputname"
+            placeholder="Masukan Nama"/>
+        </div>
+        <div class="form">
+          <label for="name" class="label">Role</label>
+          <br />
+          <input
+            type="text"
+            name="role"
+            class="forminput"
+            id="inputrole"
+            placeholder="Masukan Role"/>
+        </div>
+        <div class="form">
+          <label for="name" class="label">Availabillity</label>
+          <br />
+          <input
+            type="text"
+            name="availabillity"
+            class="forminput"
+            id="inputavai"
+            placeholder="Masukan Availabillity"/>
+        </div>
+        <div class="form">
+          <label for="name" class="label">Age</label>
+          <br />
+          <input
+            type="number"
+            name="age"
+            class="forminput"
+            id="inputage"
+            placeholder="0"/>
+        </div>
+        <div class="form">
+          <label for="name" class="label">Location</label>
+          <br />
+          <input
+            type="text"
+            name="lokasi"
+            class="formoption"
+            id="inputlocation"
+            placeholder="Masukan Lokasi"/>
+        </div>
+        <div class="form">
+          <label for="name" class="label">Years Experience</label>
+          <br />
+          <input
+            type="number"
+            name="Years experience"
+            class="forminput"
+            id="inputyears"
+            placeholder="0" />
+        </div>
+        <div class="form">
+          <label for="name" class="label">Email</label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            class="forminput"
+            id="inputemail"
+            placeholder="email@gmail.com"/>
+        </div>
+        <center>
+          <button id="submitbtn" type="submit" class="btnsubmit">Submit</button>
+        </center>
+      </div>
+    </div>
+
+    <footer id="footerpage" style=" margin: 30px 20px 20px 20px; ">
+      <div class="container">
+        <div class="row">
+          <div class="col-mb-12 text-center">
+            <p>Copyright &copy;  Yulia Dewi Susanti 2023. All rights reserved.</p>
+        </div>
+      </div>
+      </div>
+    </footer>
+    
+    
+  
+    <script
+      src="dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  
+  </body>
+</html>
